@@ -1,0 +1,209 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "https://doi.org/10.5281/zenodo.6532057"
+      }
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.6532057",
+      "@type": "Dataset",
+      "name": "Inflam",
+      "description": "Inflam is a data management system written in Python that manages trial data used in clinical inflammation studies.",
+      "author": {
+        "@id": "#Person1-1"
+      },
+      "hasPart": [
+        {
+          "@id": "data/inflammation-01.csv"
+        },
+        {
+          "@id": "data/inflammation-02.csv"
+        },
+        {
+          "@id": "data/inflammation-03.csv"
+        },
+        {
+          "@id": "data/inflammation-04.csv"
+        },
+        {
+          "@id": "data/inflammation-05.csv"
+        },
+        {
+          "@id": "data/inflammation-06.csv"
+        },
+        {
+          "@id": "data/inflammation-07.csv"
+        },
+        {
+          "@id": "data/inflammation-08.csv"
+        },
+        {
+          "@id": "data/inflammation-09.csv"
+        },
+        {
+          "@id": "data/inflammation-10.csv"
+        },
+        {
+          "@id": "data/inflammation-11.csv"
+        },
+        {
+          "@id": "data/inflammation-12.csv"
+        },
+        {
+          "@id": "data/python-novice-inflammation-data.zip"
+        },
+        {
+          "@id": "data/small-01.csv"
+        },
+        {
+          "@id": "data/small-02.csv"
+        },
+        {
+          "@id": "data/small-03.csv"
+        },
+        {
+          "@id": "inflammation/models.py"
+        },
+        {
+          "@id": "inflammation/views.py"
+        },
+        {
+          "@id": "inflammation/__init__.py"
+        },
+        {
+          "@id": "inflammation-analysis.py"
+        },
+        {
+          "@id": "LICENCE.md"
+        },
+        {
+          "@id": "README.md"
+        },
+        {
+          "@id": "requirements.txt"
+        },
+        {
+          "@id": "tests/test_models.py"
+        },
+        {
+          "@id": "tests/test_patient.py"
+        }
+      ]
+    },
+    {
+      "@id": "#Person1-1",
+      "@type": "Person",
+      "name": "Aleksandra Nenadic"
+    },
+    {
+      "@id": "data/inflammation-01.csv",
+      "@type": "csv"
+    },
+    {
+      "@id": "data/inflammation-02.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-03.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-04.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-05.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-06.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-07.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-08.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-09.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-10.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-11.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/inflammation-12.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/python-novice-inflammation-data.zip",
+      "@type": "File"
+    },
+    {
+      "@id": "data/small-01.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/small-02.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "data/small-03.csv",
+      "@type": "File"
+    },
+    {
+      "@id": "inflammation/models.py",
+      "@type": "File"
+    },
+    {
+      "@id": "inflammation/views.py",
+      "@type": "File"
+    },
+    {
+      "@id": "inflammation/__init__.py",
+      "@type": "File"
+    },
+    {
+      "@id": "inflammation-analysis.py",
+      "@type": "File"
+    },
+    {
+      "@id": "LICENCE.md",
+      "@type": "File"
+    },
+    {
+      "@id": "README.md",
+      "@type": "File"
+    },
+    {
+      "@id": "requirements.txt",
+      "@type": "File"
+    },
+    {
+      "@id": "tests/test_models.py",
+      "@type": "File"
+    },
+    {
+      "@id": "tests/test_patient.py",
+      "@type": "File"
+    }
+  ]
+}
